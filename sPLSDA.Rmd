@@ -176,47 +176,113 @@ Y_train <- Y[train_indices]
 X_test <- X[-train_indices, ]
 Y_test <- Y[-train_indices]
 
-# Fit the sPLS-DA model on training data
-splsda <- splsda(X_train, Y_train, ncomp = 2)
-## Running into trouble varying ncomp (eg 1), will need to look into this further. 
+# Fit the sPLS-DA model on training data (1 component)
+splsda <- splsda(X_train, Y_train, ncomp = 1)
 
 # Predict individual sample scores on testing data
 indiv_scores_test <- predict(splsda, newdata = X_test, type = "scores")
 
 # Extract the component 1 scores from indiv_scores_test
-scores_comp1 <- indiv_scores_test$X.test$comp1
+scores_comp1 <- indiv_scores_test$predict[, , 1]
+
 
 
 ```
 
 ```{r}
-plotIndiv(splsda, Group = Y, legend = TRUE, ellipse =TRUE, title = "sPLS-DA", )
+#plotIndiv(splsda, Group = Y, legend = TRUE, ellipse = TRUE, title = "sPLS-DA", comp = 1)
 
 # Very interesting result. As defined earlier, 0 is HFM, and 1 is Control. Looks like there is a meaningful difference between the two groups.
 
 ```
 
+
+
 ```{r}
 
 # We can now compute the AUC for the model to see the quality of the model. 
 
-# Extract the predicted scores and true class labels
-predicted_scores <- indiv_scores_test$predict
-true_labels <- as.numeric(Y_test) - 1  # Convert factor levels to numeric (0, 1)
+# Extract the predicted scores and true class labels for the single component
+predicted_scores_comp1 <- indiv_scores_test$predict[, 1, 1]
+true_labels_comp1 <- as.numeric(Y_test) - 1  # Convert factor levels to numeric (0, 1)
 
-# Compute AUC for each component and average them
-auc_values <- sapply(1:2, function(comp) {
-  roc_obj <- roc(true_labels, predicted_scores[, comp, 2])
-  auc(roc_obj)
-})
-
-# Average AUC across components
-average_auc <- mean(auc_values)
+# Compute AUC for the single component
+auc_value <- roc(true_labels_comp1, predicted_scores_comp1)$auc
 
 # Print the AUC
-cat("Average AUC:", average_auc, "\n")
+cat("AUC:", auc_value, "\n")
 
-
-# From what I see online and in the airways paper, this looks like a pretty good score. Model looks good (?). 
 
 ```
+```{r}
+rdp_reshaped <- ASV_RDP %>%
+  separate("Level.of.annotation", into = c("d", "p", "c", "o", "f", "g"), sep = ",")
+
+```
+```{r}
+# Get the ASV IDs from the column names in df_samples
+#asv_ids <- colnames(merged_data)[-c(1:2)]  # Exclude the first two columns (SampleNum and health_status)
+
+# Filter the relevant rows from rdp_reshaped based on the asv_ids
+#filtered_rdp <- rdp_reshaped[rdp_reshaped$ASV_ID %in% asv_ids, ]
+
+# Rename the ASV_ID column in filtered_rdp to match df_samples
+#colnames(filtered_rdp)[1] <- "ASV_ID"
+
+# Merge df_samples with filtered_rdp based on the SampleNum column
+#merged3 <- left_join(merged_data, filtered_rdp, by = "SampleNum")
+
+#failed attempt to join RDP to merged. 
+
+```
+
+```{r}
+library(tidyverse)
+
+# Assuming your original data frame is named df
+
+# Convert the "Phylum" column to row names
+df_with_row_names <- column_to_rownames(phylum, var = "Phylum")
+
+# Reshape the data frame to long format
+long_df <- df_with_row_names %>%
+  rownames_to_column(var = "Phylum") %>%
+  pivot_longer(cols = -Phylum, names_to = "SampleID", values_to = "Value")
+
+# Assuming your data frames are named df1 and df2
+
+# Merge the data frames based on the "samplenum" and "sampleid" columns
+merged_df <- merge(merged_data, long_df, by.x = "SampleNum", by.y = "SampleID")
+
+```
+
+
+```{r}
+library(ggplot2)
+
+# Assuming you have a data frame named "phylum_values" with columns "phylum" and "values"
+
+# Combine the sPLS-DA scores with the phylum values
+scores_phylum <- cbind(scores_comp1, phylum_values)
+
+# Convert the combined data to a data frame
+df_scores_phylum <- as.data.frame(scores_phylum)
+
+# Create the scatter plot
+ggplot(df_scores_phylum, aes(x = comp1, y = comp2, color = values)) +
+  geom_point() +
+  labs(x = "Component 1", y = "Component 2", color = "Phylum Values") +
+  scale_color_gradient(low = "blue", high = "red") +
+  theme_minimal()
+
+```
+
+
+
+
+
+
+
+
+
+
