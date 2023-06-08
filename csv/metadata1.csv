@@ -1,0 +1,720 @@
+﻿Usage Tips:,,,,,,,,,,,,,,,,,
+"(1)In the column of enterovirus type, ""Others"" refers to enteroviruses of unidentified virus type;",,,,,,,,,,,,,,,,,
+"(2)The criteria for ""Frequently, Occasionally and Hardly"": ""Frequently"" means not less than 3 times each week. ""Occasionally"" means 1 to 2 times per week. ""Hardly"" means 0 times per week;",,,,,,,,,,,,,,,,,
+"(3)The criteria for""Regularly"", Occasionally irregular and Irregularly"":""Regularly"" is defined as being able to eat every meal on time. ""Occasionally irregular"" is defined as not being able to eat on time 1-2 times a week. ""Irregularly"" is defined as not being able to eat on time or not eating more than 2 times a week. ",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+SampleID,Group,Sex,Address,Age,Livingstatus,Enterovirus.Type,Washing.hands.before.and.after meals,Washing.hands.after.going.out,Sucking.finger.action,Rolling.and.playing.on.the.ground,Sharing.toys.with.other.children,Probiotics,Prebiotics,Herbal.tea.,Regularity.of.dietary.habit,LinkerPrimerSequence,ReversePrimer
+D11001,HFM,male,Jiangmen,2,Childcare ,CA16,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11002,HFM,male,Jiangmen,2,Childcare ,CA16,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11003,HFM,male,Jiangmen,2,Childcare ,CA16,Frequently,Frequently,Frequently,Occasionally,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11005,HFM,male,Jiangmen,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11006,HFM,female,Jiangmen,4,Scattered,EV71,Hardly,Hardly,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11007,HFM,female,Jiangmen,4,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11008,HFM,male,Jiangmen,2,Scattered,EV71,Hardly,Hardly,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11009,HFM,male,Jiangmen,2,Childcare ,EV71,Occasionally,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11010,HFM,male,Jiangmen,1,Scattered,EV71,Occasionally,Occasionally,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11012,HFM,male,Jiangmen,1,Scattered,Unchecked,Hardly,Hardly,Frequently,Hardly,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11013,HFM,female,Jiangmen,1,Childcare ,Others,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11014,HFM,male,Jiangmen,2,Scattered,CA6,Occasionally,Occasionally,Hardly,Frequently,Hardly,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11015,HFM,male,Jiangmen,1,Scattered,CA16,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11016,HFM,male,Jiangmen,5,Childcare ,EV71,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11017,HFM,female,Jiangmen,4,Childcare ,CA6,Occasionally,Frequently,Frequently,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11018,HFM,male,Jiangmen,1,Childcare ,CA6,Frequently,Frequently,Occasionally,Occasionally,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11019,HFM,female,Jiangmen,1,Scattered,Unchecked,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11021,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11022,HFM,female,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11023,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11024,HFM,male,Jiangmen,1,Childcare ,Unchecked,Occasionally,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11025,HFM,male,Jiangmen,3,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11030,HFM,male,Jiangmen,6,Scattered,EV71,Occasionally,Occasionally,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11031,HFM,male,Jiangmen,3,Childcare ,EV71,Occasionally,Frequently,Hardly,Frequently,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11032,HFM,female,Jiangmen,3,Childcare ,EV71,Frequently,Occasionally,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11037,HFM,female,Jiangmen,1,Scattered,Unchecked,Frequently,Hardly,Frequently,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11038,HFM,female,Jiangmen,2,Childcare ,Unchecked,Frequently,Occasionally,Frequently,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11039,HFM,male,Jiangmen,4,Childcare ,Unchecked,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11042,HFM,female,Jiangmen,2,Scattered,CA6,Occasionally,Occasionally,Frequently,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11043,HFM,female,Jiangmen,4,Childcare ,CA6,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11045,HFM,male,Jiangmen,3,Childcare ,CA6,Occasionally,Occasionally,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11048,HFM,male,Jiangmen,2,Childcare ,Unchecked,Occasionally,Frequently,Frequently,Occasionally,Frequently,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11049,HFM,female,Jiangmen,2,Childcare ,Unchecked,Frequently,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11055,HFM,male,Jiangmen,3,Childcare ,CA16,Occasionally,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11058,HFM,female,Jiangmen,1,Scattered,CA6,Frequently,Frequently,Hardly,Frequently,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11064,HFM,male,Jiangmen,2,Scattered,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11070,HFM,male,Jiangmen,4,Childcare ,CA6,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11077,HFM,female,Jiangmen,2,Childcare ,CA6,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11088,HFM,male,Jiangmen,2,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11095,HFM,female,Jiangmen,2,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11096,HFM,female,Jiangmen,4,Childcare ,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11100,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11101,HFM,female,Jiangmen,4,Childcare ,Others,Occasionally,Occasionally,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11144,HFM,female,Jiangmen,2,Scattered,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11145,HFM,male,Jiangmen,3,Childcare ,Others,Occasionally,Hardly,Frequently,Frequently,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11148,HFM,female,Jiangmen,3,Childcare ,Unchecked,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11155,HFM,female,Jiangmen,3,Childcare ,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11156,HFM,male,Jiangmen,3,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11157,HFM,male,Jiangmen,5,Childcare ,Unchecked,Occasionally,Occasionally,Hardly,Frequently,Frequently,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11158,HFM,female,Jiangmen,4,Childcare ,CA6,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11159,HFM,male,Jiangmen,3,Scattered,CA6,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11161,HFM,female,Jiangmen,2,Childcare ,CA16,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Hardly,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11162,HFM,female,Jiangmen,2,Childcare ,Unchecked,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Hardly,Hardly,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11163,HFM,male,Jiangmen,3,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11165,HFM,male,Jiangmen,3,Childcare ,Others,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11180,HFM,female,Jiangmen,4,Childcare ,Others,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11183,HFM,female,Jiangmen,5,Childcare ,CA6,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11184,HFM,female,Jiangmen,5,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11185,HFM,female,Jiangmen,4,Childcare ,Unchecked,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11187,HFM,female,Jiangmen,5,Childcare ,CA6,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11188,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11189,HFM,female,Jiangmen,2,Childcare ,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11192,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11193,HFM,male,Jiangmen,3,Childcare ,CA6,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11194,HFM,female,Jiangmen,3,Childcare ,Unchecked,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11195,HFM,female,Jiangmen,2,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D11196,HFM,female,Jiangmen,3,Childcare ,Unchecked,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12004,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12005,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12007,Control,female,Jiangmen,2,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12013,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12014,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Hardly,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12015,Control,male,Jiangmen,4,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12016,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12017,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12020,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12021,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12022,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12023,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12027,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12028,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12029,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12030,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12031,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12032,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12034,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12035,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12036,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12037,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Frequently,Frequently,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12038,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12039,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12040,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Hardly,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12041,Control,female,Jiangmen,2,Scattered,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12042,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12043,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12044,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12045,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12046,Control,male,Jiangmen,2,Childcare ,NA,Occasionally,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12047,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12048,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12049,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Hardly,Hardly,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12050,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12052,Control,male,Jiangmen,3,Scattered,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12055,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12057,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Occasionally,Hardly,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12058,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12059,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12060,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12061,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D12064,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13001,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13002,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13003,Control,female,Jiangmen,2,Scattered,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13004,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13005,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13006,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13007,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13008,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13009,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13010,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Hardly,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13011,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13012,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13013,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Frequently,Hardly,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13014,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13015,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13016,Control,male,Jiangmen,2,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13018,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13020,Control,female,Jiangmen,2,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Frequently,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13021,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13022,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13023,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13025,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13026,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13027,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13028,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13029,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13030,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13031,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13032,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13033,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13034,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Frequently,Frequently,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13035,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13036,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13037,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13038,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13039,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13040,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13041,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13042,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13043,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13044,Control,male,Jiangmen,1,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13045,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13046,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13048,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13050,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Frequently,Frequently,Frequently,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13051,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13052,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13053,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13054,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13055,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13056,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13058,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13060,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13061,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13063,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13064,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13065,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13067,Control,male,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Hardly,Occasionally,Hardly,Occasionally,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13068,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13069,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13070,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13071,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13072,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13073,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13074,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13075,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13076,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13077,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13078,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13079,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13080,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13081,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13082,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13083,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13084,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13085,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13087,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13088,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Frequently,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13089,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13090,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13091,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13092,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13093,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13094,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13095,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13096,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13097,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13098,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13099,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13100,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13101,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13102,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13103,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13104,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13105,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13106,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13107,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13108,Control,male,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13109,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13110,Control,male,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13111,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13112,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13113,Control,male,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13114,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13115,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13116,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13117,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13118,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13119,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13120,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13121,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13122,Control,female,Jiangmen,3,Scattered,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13123,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13124,Control,female,Jiangmen,1,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13125,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13126,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13127,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13128,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13129,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13130,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13131,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13132,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13133,Control,male,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13134,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13135,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13136,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13137,Control,female,Jiangmen,6,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13138,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13139,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13140,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13141,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13142,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13143,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Occasionally,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13144,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13145,Control,male,Jiangmen,1,Scattered,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13147,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13149,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13150,Control,male,Jiangmen,2,Childcare ,NA,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13151,Control,male,Jiangmen,2,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13152,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13153,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13154,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Occasionally,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13155,Control,male,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13156,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13157,Control,male,Jiangmen,2,Scattered,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13158,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Frequently,Occasionally,Hardly,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13159,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13160,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13162,Control,female,Jiangmen,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13163,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13164,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13165,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13166,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13167,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13169,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13170,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13172,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13173,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13174,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13175,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13176,Control,female,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13177,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13178,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13179,Control,female,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13180,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13181,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13182,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13183,Control,female,Jiangmen,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13184,Control,female,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13185,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13186,Control,male,Jiangmen,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13187,Control,male,Jiangmen,4,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13188,Control,male,Jiangmen,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13189,Control,male,Jiangmen,2,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13190,Control,male,Jiangmen,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Frequently,Frequently,Frequently,Frequently,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D13191,Control,female,Jiangmen,2,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21001,HFM,male,Heyuan,3,Childcare ,Unchecked,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21002,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21003,HFM,male,Heyuan,2,Scattered,Others,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21005,HFM,male,Heyuan,3,Childcare ,EV71,Frequently,Occasionally,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21007,HFM,female,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21008,HFM,male,Heyuan,3,Childcare ,CA16,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21009,HFM,male,Heyuan,5,Childcare ,Others,Frequently,Occasionally,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21012,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21013,HFM,female,Heyuan,4,Childcare ,CA6,Hardly,Hardly,Hardly,Hardly,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21014,HFM,male,Heyuan,3,Scattered,Others,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21015,HFM,female,Heyuan,2,Childcare ,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21018,HFM,female,Heyuan,4,Childcare ,CA16,Occasionally,Occasionally,Hardly,Hardly,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21019,HFM,male,Heyuan,4,Childcare ,Unchecked,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21020,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21021,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21022,HFM,male,Heyuan,5,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21023,HFM,male,Heyuan,1,Scattered,Others,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21024,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21025,HFM,female,Heyuan,5,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21026,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Occasionally,Frequently,Frequently,Frequently,Frequently,Frequently,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21027,HFM,male,Heyuan,4,Childcare ,CA16,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21028,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21029,HFM,male,Heyuan,4,Childcare ,CA6,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21030,HFM,male,Heyuan,3,Childcare ,Unchecked,Frequently,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21031,HFM,male,Heyuan,1,Scattered,Unchecked,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21032,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21036,HFM,male,Heyuan,2,Scattered,CA6,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21037,HFM,male,Heyuan,1,Scattered,CA16,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21038,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21039,HFM,female,Heyuan,1,Scattered,EV71,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21040,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21041,HFM,female,Heyuan,2,Scattered,CA16,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21043,HFM,female,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21044,HFM,male,Heyuan,1,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21045,HFM,male,Heyuan,3,Scattered,CA6,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21046,HFM,male,Heyuan,2,Scattered,CA16,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21047,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21048,HFM,female,Heyuan,3,Scattered,CA16,Frequently,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21049,HFM,male,Heyuan,4,Childcare ,CA16,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21050,HFM,male,Heyuan,3,Childcare ,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21051,HFM,male,Heyuan,1,Scattered,CA16,Occasionally,Occasionally,Hardly,Frequently,Frequently,Frequently,Hardly,Occasionally,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21052,HFM,male,Heyuan,1,Scattered,CA16,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21053,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21054,HFM,male,Heyuan,1,Scattered,Unchecked,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21055,HFM,female,Heyuan,3,Scattered,EV71,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21056,HFM,female,Heyuan,4,Scattered,EV71,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21057,HFM,male,Heyuan,5,Scattered,EV71,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21058,HFM,male,Heyuan,3,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21059,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21060,HFM,female,Heyuan,3,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21061,HFM,male,Heyuan,2,Scattered,CA16,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21062,HFM,male,Heyuan,3,Childcare ,EV71,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Hardly,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21063,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21064,HFM,female,Heyuan,2,Childcare ,EV71,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Hardly,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21065,HFM,female,Heyuan,2,Childcare ,CA16,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21066,HFM,female,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21067,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21068,HFM,female,Heyuan,4,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21069,HFM,female,Heyuan,1,Scattered,EV71,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21070,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21071,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21072,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21073,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Hardly,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21074,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21075,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21076,HFM,female,Heyuan,5,Scattered,Others,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21077,HFM,female,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21078,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21079,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21080,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21081,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21082,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21083,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21084,HFM,female,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21085,HFM,female,Heyuan,4,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21086,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21087,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21088,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21089,HFM,male,Heyuan,3,Scattered,EV71,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21090,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21091,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21092,HFM,female,Heyuan,2,Scattered,Others,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21093,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21094,HFM,male,Heyuan,1,Scattered,Others,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21095,HFM,male,Heyuan,5,Childcare ,EV71,Frequently,Frequently,Hardly,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21096,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21097,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21098,HFM,male,Heyuan,5,Scattered,Others,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21099,HFM,female,Heyuan,4,Scattered,EV71,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21100,HFM,female,Heyuan,1,Scattered,EV71,Occasionally,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21101,HFM,male,Heyuan,3,Scattered,EV71,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21102,HFM,female,Heyuan,2,Scattered,Others,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21103,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21104,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21105,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21106,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21107,HFM,male,Heyuan,3,Childcare ,EV71,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21108,HFM,male,Heyuan,2,Scattered,Unchecked,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21109,HFM,female,Heyuan,4,Scattered,Unchecked,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21110,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21111,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21112,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21113,HFM,male,Heyuan,4,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21114,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21115,HFM,female,Heyuan,3,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21116,HFM,male,Heyuan,2,Childcare ,Others,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21117,HFM,female,Heyuan,1,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21118,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21119,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21120,HFM,male,Heyuan,3,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21121,HFM,male,Heyuan,3,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21122,HFM,male,Heyuan,5,Childcare ,EV71,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21123,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21124,HFM,male,Heyuan,5,Childcare ,CA16,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21125,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21126,HFM,male,Heyuan,5,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21127,HFM,male,Heyuan,3,Childcare ,Others,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21128,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21129,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21130,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21131,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21132,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21133,HFM,female,Heyuan,3,Childcare ,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21134,HFM,female,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21135,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21136,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21137,HFM,male,Heyuan,2,Scattered,Unchecked,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21138,HFM,male,Heyuan,6,Childcare ,EV71,Frequently,Occasionally,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21139,HFM,male,Heyuan,2,Scattered,EV71,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21140,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21141,HFM,female,Heyuan,5,Childcare ,Others,Frequently,Frequently,Occasionally,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21142,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21143,HFM,male,Heyuan,1,Scattered,Others,Frequently,Hardly,Frequently,Frequently,Frequently,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21145,HFM,male,Heyuan,5,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21146,HFM,male,Heyuan,3,Childcare ,Others,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21147,HFM,female,Heyuan,2,Scattered,EV71,Hardly,Hardly,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21149,HFM,male,Heyuan,3,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21150,HFM,female,Heyuan,3,Scattered,Others,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21151,HFM,male,Heyuan,2,Scattered,EV71,Occasionally,Hardly,Hardly,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21152,HFM,male,Heyuan,4,Scattered,Others,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21153,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21154,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21155,HFM,female,Heyuan,2,Scattered,Unchecked,Frequently,Occasionally,Hardly,Frequently,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21156,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Frequently,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21157,HFM,female,Heyuan,3,Scattered,Unchecked,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21158,HFM,male,Heyuan,1,Scattered,Unchecked,Occasionally,Occasionally,Frequently,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21159,HFM,male,Heyuan,4,Childcare ,Unchecked,Frequently,Frequently,Hardly,Frequently,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21160,HFM,female,Heyuan,6,Childcare ,EV71,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21161,HFM,male,Heyuan,2,Scattered,Others,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21162,HFM,male,Heyuan,1,Scattered,Unchecked,Frequently,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21163,HFM,female,Heyuan,1,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21164,HFM,male,Heyuan,5,Childcare ,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21165,HFM,male,Heyuan,5,Childcare ,CA16,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21166,HFM,male,Heyuan,5,Childcare ,EV71,Occasionally,Occasionally,Hardly,Hardly,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21167,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21168,HFM,male,Heyuan,3,Childcare ,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21169,HFM,male,Heyuan,4,Childcare ,EV71,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21170,HFM,male,Heyuan,3,Childcare ,EV71,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21171,HFM,male,Heyuan,4,Childcare ,Others,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21172,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21173,HFM,female,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21174,HFM,female,Heyuan,3,Childcare ,EV71,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21175,HFM,male,Heyuan,3,Childcare ,Unchecked,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21176,HFM,male,Heyuan,6,Childcare ,EV71,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21177,HFM,male,Heyuan,5,Childcare ,EV71,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21178,HFM,male,Heyuan,2,Scattered,Unchecked,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21179,HFM,male,Heyuan,3,Childcare ,EV71,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21180,HFM,female,Heyuan,2,Scattered,Others,Frequently,Hardly,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21181,HFM,male,Heyuan,2,Scattered,Others,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21182,HFM,female,Heyuan,2,Scattered,Others,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21183,HFM,female,Heyuan,3,Childcare ,CA16,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21184,HFM,female,Heyuan,2,Scattered,EV71,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21185,HFM,female,Heyuan,3,Childcare ,Unchecked,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21186,HFM,female,Heyuan,3,Scattered,EV71,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21187,HFM,male,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21188,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21189,HFM,male,Heyuan,1,Scattered,Unchecked,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21190,HFM,male,Heyuan,2,Childcare ,Unchecked,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21191,HFM,male,Heyuan,1,Scattered,Unchecked,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21192,HFM,male,Heyuan,1,Scattered,Unchecked,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21193,HFM,male,Heyuan,1,Scattered,EV71,Frequently,Frequently,Hardly,Hardly,Hardly,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21194,HFM,female,Heyuan,4,Childcare ,EV71,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21196,HFM,male,Heyuan,1,Scattered,EV71,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21197,HFM,male,Heyuan,6,Childcare ,EV71,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21198,HFM,male,Heyuan,2,Childcare ,EV71,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21199,HFM,female,Heyuan,5,Childcare ,Others,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D21200,HFM,male,Heyuan,3,Scattered,Others,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22001,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22002,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22003,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22004,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22005,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22006,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22007,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22008,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22010,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22011,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22012,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22013,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22014,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22015,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Frequently,Frequently,Frequently,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22016,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22017,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22018,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22019,Control,male,Heyuan,2,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Hardly,Hardly,Hardly,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22020,Control,male,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22021,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22022,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22023,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22025,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22026,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22027,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22028,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22029,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22030,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22031,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22032,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22033,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22034,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22035,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22036,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22037,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22038,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22039,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22040,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22041,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22042,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22043,Control,male,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22044,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22045,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22046,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22047,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22048,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22049,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Frequently,Hardly,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22050,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22051,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22052,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22053,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22054,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22056,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22057,Control,male,Heyuan,4,Childcare ,NA,Hardly,Frequently,Hardly,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22058,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22059,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22060,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22061,Control,male,Heyuan,2,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22062,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22063,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22064,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22065,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Frequently,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22066,Control,male,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22067,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22068,Control,male,Heyuan,2,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22069,Control,female,Heyuan,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22070,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22071,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22072,Control,female,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22073,Control,female,Heyuan,3,Childcare ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22074,Control,male,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22075,Control,female,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22076,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22077,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22078,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22079,Control,male,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22080,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22081,Control,female,Heyuan,4,Childcare ,NA,Hardly,Occasionally,Hardly,Hardly,Hardly,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22082,Control,female,Heyuan,6,Childcare ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22083,Control,male,Heyuan,6,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22084,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22085,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22086,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22087,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22088,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22089,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22090,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22091,Control,male,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22092,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22093,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22094,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22095,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22096,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22097,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22098,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Hardly,Hardly,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22099,Control,male,Heyuan,6,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22100,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Frequently,Frequently,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22101,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22102,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22103,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22104,Control,female,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22106,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22108,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22109,Control,male,Heyuan,2,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22110,Control,male,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22111,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22112,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22113,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22114,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22116,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Occasionally,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22117,Control,male,Heyuan,2,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22118,Control,male,Heyuan,2,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22119,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22120,Control,male,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22121,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22122,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22123,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22124,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22125,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22126,Control,male,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22127,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22128,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22129,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22130,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22131,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22133,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22134,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22135,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22136,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22137,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22138,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22139,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22140,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,NA,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22141,Control,male,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22142,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22143,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Frequently,Occasionally,Frequently,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22144,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Hardly,Frequently,Frequently,Occasionally,Occasionally,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22145,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Frequently,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22146,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22147,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22148,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22149,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22150,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22151,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22152,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22153,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22154,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22155,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22156,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22157,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22158,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22159,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22161,Control,male,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22162,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22163,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22164,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22165,Control,male,Heyuan,4,Childcare ,NA,Frequently,Frequently,Occasionally,Frequently,Frequently,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22166,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22168,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Frequently,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22169,Control,male,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22170,Control,male,Heyuan,2,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22171,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22172,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22173,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22174,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Frequently,Occasionally,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22175,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22176,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22177,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22178,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22179,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22180,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22181,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22182,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22183,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22184,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22185,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22186,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22187,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22188,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22189,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22190,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22191,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22192,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22193,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22194,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22195,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Frequently,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22196,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22197,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22198,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22200,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22201,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22202,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22203,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22204,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Hardly,Occasionally,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22205,Control,female,Heyuan,5,Childcare ,NA,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22206,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22207,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22208,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Hardly,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22209,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Occasionally,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22210,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22211,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Occasionally,Hardly,Hardly,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22212,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22213,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Frequently,Hardly,Frequently,Frequently,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22214,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Hardly,Frequently,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22215,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Occasionally,Frequently,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22216,Control,male,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Hardly,Frequently,Frequently,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22217,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22218,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Occasionally,Frequently,Frequently,Frequently,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22219,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22220,Control,female,Heyuan,4,Childcare ,NA,Occasionally,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22221,Control,male,Heyuan,4,Childcare ,NA,Occasionally,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22222,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22223,Control,female,Heyuan,4,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22224,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Hardly,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22225,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22226,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Hardly,Hardly,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22227,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Frequently,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22228,Control,female,Heyuan,4,Childcare ,NA,Frequently,Occasionally,Hardly,Hardly,Hardly,Occasionally,Occasionally,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22229,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22230,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22231,Control,male,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22232,Control,female,Heyuan,5,Childcare ,NA,Occasionally,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22233,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Frequently,Frequently,Frequently,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22234,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22235,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22236,Control,male,Heyuan,6,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22237,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Occasionally,Frequently,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22238,Control,female,Heyuan,5,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22239,Control,female,Heyuan,5,Childcare ,NA,Frequently,Occasionally,Hardly,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22240,Control,male,Heyuan,5,Childcare ,NA,Frequently,Frequently,Frequently,Occasionally,Frequently,Occasionally,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22241,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Occasionally,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22242,Control,male,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Frequently,Hardly,Hardly,Hardly,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22243,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Occasionally,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22244,Control,male,Heyuan,3,Childcare ,NA,Occasionally,Frequently,Occasionally,Hardly,Occasionally,Hardly,Hardly,Occasionally,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22245,Control,female,Heyuan,2,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22246,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Hardly,Occasionally,Frequently,Occasionally,Hardly,Occasionally,irregularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22247,Control,male,Heyuan,3,Childcare ,NA,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Occasionally,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22248,Control,female,Heyuan,3,Childcare ,NA,Occasionally,Frequently,Hardly,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22249,Control,female,Heyuan,3,Childcare ,NA,Frequently,Frequently,Frequently,Frequently,Frequently,Frequently,Hardly,Frequently,Occasionally irregular, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
+D22250,Control,female,Heyuan,3,Childcare ,NA,Frequently,Occasionally,Occasionally,Occasionally,Hardly,Hardly,Hardly,Occasionally,Regularly, GTGCCAGCMGCCGCGGTAA,GGACTACHVGGGTWTCTAAT
