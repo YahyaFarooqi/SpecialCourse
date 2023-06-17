@@ -1,0 +1,264 @@
+---
+title: "GenusSPLSDA"
+output: html_notebook
+---
+
+This R notebook outlines the creation of a sPLS-DA model which aims to discriminate between healthy and unhealthy patients based on their respective genera abundances. Data was received from Guo *et al* 2023 (https://doi.org/10.6084/m9.figshare.c.6364904.v2). 
+
+Patients were divided by HFM (unhealthy) and control (healthy), with their respective 16srRNA analyses being processed to yield genera abundances, which are imported into this document for the model. 
+
+We will begin by loading relevent libraries:
+
+
+```{r}
+#loading relevent libraries. 
+library("mixOmics")
+library("readr")
+library(tidyverse)
+library(pROC)
+library(caret)
+library(ggplot2)
+
+```
+
+We will now load in our two primary data sets. "genus.csv" contains genus abundances, and "meta2.csv" contains relevant user health status information. 
+
+```{r}
+genus<- read.csv("/Users/nfarooqi/Downloads/Rebi/HFM/csv/genus.csv")
+meta2<- read.csv("/Users/nfarooqi/Downloads/Rebi/HFM/csv/metadata2.csv")
+```
+
+To make our downstream analysis easier, we will switch our column and row names with the following code:
+
+```{r}
+df_long <- genus %>%
+  gather(key = "sample", value = "abundance", -Genus) %>%
+  spread(key = "Genus", value = "abundance")
+
+# setting rownames
+rownames(df_long) <- df_long$sample
+df_long$sample <- NULL
+
+df_long <- df_long[-1, ]
+```
+
+We will now clean up our metadata dataframe to make it easier to use later. 
+
+```{r}
+# removing first 5 rows
+meta2 <- meta2[-(1:5), ]
+
+# making 6th row as the heading
+names(meta2) <- as.character(unlist(meta2[1,]))
+
+# removing the 1st row which is now the heading
+meta2 <- meta2[-1, ]
+
+```
+
+Now we will merge our data sets together, such that the health status of the user is included with the data frame listing genera abundances. Health status will be converted to binary, such that "HFM" = 1, and "control" = 0. This will make running the model easier in the future. 
+
+```{r}
+
+# Convert row names to a column
+df_long <- df_long %>% rownames_to_column(var = "SampleID")
+
+# Merge the dataframes
+df_long <- df_long %>% left_join(meta2 %>% select(SampleID, Group), by = "SampleID")
+
+# convert Group to binary
+df_long$Group <- ifelse(df_long$Group == "Control", 0, 1)
+
+# reorder columns
+df_long <- df_long[, c("SampleID", "Group", setdiff(names(df_long), c("SampleID", "Group")))]
+
+```
+
+For our other .rmd's, we need "new users", so we randomly delete and store three sample data rows, and then subsequently delete them. 
+
+```{r}
+# Set the seed for reproducibility
+set.seed(123)
+
+# Select 3 random rows with Group value of 1
+rows_to_select <- sample(which(df_long$Group == 1), 3)
+
+# Store the selected rows in the testing_set dataframe
+testing_set <- df_long[rows_to_select, ]
+
+# Save the testing_set dataframe as an RDS file
+saveRDS(testing_set, "testing_set.rds")
+
+values_to_delete <- c("D21118", "D21174", "D21142")
+
+# Delete rows based on the values
+df_long <- subset(df_long, !SampleID %in% values_to_delete)
+
+
+saveRDS(df_long, "joined_data")
+
+```
+
+Now we perform our model. We split the matrices into X and Y components, outlining predictive status (1 or 0) and abundance scores. We iterate through the model with different combinations of data splits (monte carlo) and also create consistent data partitions so that each iteration is consistent. As per the paper we are basing our analysis on (https://doi.org/10.1038/s41467-019-12989-7) we use a one component model to avoid overfitting and to make our subsequent steps more parsimonious. 
+
+```{r}
+# Number of iterations
+n_iterations <- 100  
+
+# Initialize a list to store the scores from each iteration
+scores_list <- list()
+
+# Initialize a list to store Y_test from each iteration
+Y_test_list <- list()
+
+for (i in 1:n_iterations) {
+  
+  # Set the seed to a different value on each iteration
+  set.seed(i)
+
+  # Extract X (genus data)
+  X <- df_long[, -(1:2)]
+
+  # Extract Y (Group)
+  Y <- df_long$Group
+
+  # Create stratified data partition
+  trainIndex <- createDataPartition(Y, p = .8, list = FALSE, times = 1)
+
+  # Split the data into training and testing sets
+  X_train <- X[trainIndex, ]
+  Y_train <- Y[trainIndex]
+  X_test <- X[-trainIndex, ]
+  Y_test <- Y[-trainIndex]
+
+  # Store Y_test in the list
+  Y_test_list[[i]] <- Y_test
+
+  # Check if X_train is a matrix, if not convert it to matrix
+  if(!is.matrix(X_train)){
+    X_train <- as.matrix(X_train)
+  }
+
+  # Check if Y_train is a factor, if not convert it to factor
+  if(!is.factor(Y_train)){
+    Y_train <- as.factor(Y_train)
+  }
+
+  # Fit the sPLS-DA model on training data (1 component)
+  splsda <- mixOmics::splsda(X_train, Y_train, ncomp = 1)
+
+  # Predict individual sample scores on testing data
+  indiv_scores_test <- predict(splsda, newdata = X_test, type = "scores")
+
+  # Extract the component 1 scores from indiv_scores_test and store in the list
+  scores_list[[i]] <- indiv_scores_test$predict[, , 1]
+}
+
+```
+
+Ok, now we have created our model. we can proceed with some visualizations. Here we use the plotLoadings functions, which can outline the contribution to the component of each genera. Here we notice the model loading weight the healthy components (0) with negative scores, which will be useful information in the other .rmd's. 
+
+```{r, fig.height=20, fig.width=5}
+
+plotLoadings(splsda, method = 'mean', contrib = 'max')  
+
+```
+
+We can also visually inspect the model using a box plot. We can do this using the following code:
+
+```{r}
+# Fit the sPLS-DA model on training data 
+splsda_train <- mixOmics::splsda(X_train, Y_train, ncomp = 1)
+
+# Get the scores for the training data
+train_scores <- splsda_train$variates$X[,1]
+
+# Create a data frame for the score plot
+score_df_train <- data.frame(Score = train_scores, Group = Y_train)
+
+# Create the score plot
+ggplot(score_df_train, aes(x = as.factor(Group), y = Score, fill = as.factor(Group))) +
+  geom_boxplot() +
+  labs(title = "Score Plot (Training Data)", x = "Health Status", y = "Component 1") +
+    scale_fill_discrete(name = "Health Status", labels = c("Healthy", "Unhealthy")) +
+  theme_minimal()
+
+```
+We can see that the two categories are visually distinct, indicating that the model can adequatley discriminate between healthy and unhealthy individuals. 
+
+Now for each iteration of the model, we can compute the AUC, to yield the average AUC score and evaluate the model. 
+
+```{r, message=FALSE}
+# Initialize a vector to store AUC values
+auc_values <- numeric(n_iterations)
+
+# Calculate AUC for each iteration
+for (i in 1:n_iterations) {
+  
+  # Get the predicted scores for the positive class (1)
+  predicted_scores <- suppressWarnings(scores_list[[i]][, 2]) 
+
+  # Get Y_test for the current iteration
+  Y_test <- Y_test_list[[i]]
+
+  # Calculate ROC and AUC
+  roc_obj <- pROC::roc(as.numeric(Y_test), predicted_scores)
+  auc_values[i] <- pROC::auc(roc_obj)
+}
+
+# Compute the mean AUC
+mean_auc <- mean(auc_values, na.rm = TRUE)
+
+# Print the mean AUC
+print(paste("Mean AUC:", round(mean_auc, 2)))
+
+```
+
+
+We not only want to see the mean AUC, but we also want to visualize the spread of the AUC values (standard deviation) around the mean. We can use the following script to find the SD and can then visualize our data in a histogram and boxplot. 
+
+
+```{r}
+
+# Calculate the standard deviation of AUC values
+std_dev <- sd(auc_values, na.rm = TRUE)
+
+# Print the standard deviation
+print(paste("Standard Deviation of AUC:", round(std_dev, 2)))
+
+# Create a data frame with AUC values
+auc_df <- data.frame(auc = auc_values)
+
+# Create a histogram of AUC values
+ggplot(auc_df, aes(x = auc)) +
+  geom_histogram(color = "black", fill = "lightblue", bins = 30) +
+  geom_vline(aes(xintercept = mean(auc)), color = "red", linetype = "dashed", size = 1) +
+  geom_vline(aes(xintercept = mean(auc) + std_dev, xintercept = mean(auc) - std_dev), color = "blue", linetype = "dashed", size = 1) +
+  ggtitle("Histogram of AUC values") +
+  xlab("AUC") +
+  ylab("Frequency")
+```
+
+
+```{r}
+# Create a boxplot of AUC values
+ggplot(auc_df, aes(x = "AUC", y = auc)) +
+  geom_boxplot(fill = "lightblue", outlier.shape = NA) +
+  geom_jitter(width = 0.3, aes(x = "AUC")) +
+  ggtitle("Boxplot of AUC values") +
+  ylab("AUC")
+```
+
+With a value of 0.05 for our SD and from visual inspection of our two generated plots, we can say that the calculated mean of 0.81 is appropriate for the model, and suggests that the model has adequate predictive power for the purpose of this report. Of course, in the future we want to maximize the samples used in the model training, so perhaps we can improve this parameter in the future. 
+
+
+We can now save the model in our environment for use in the next notebook ("Supplement.Rmd")
+
+
+```{r}
+# Save the model to a file
+saveRDS(splsda, "splsda_model.rds")
+
+```
+
+
