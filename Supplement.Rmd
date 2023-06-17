@@ -1,0 +1,144 @@
+---
+title: "Supplementation"
+output: html_notebook
+---
+
+The purpose of this notebook is to provide code that can be used to provide a personalized probiotic supplement to individuals. This supplementation is derived from new user data and the model generated in the previous notebook. 
+
+This is the second in the series of three notebooks associated with the Rebilance special course project. 
+
+We will begin by reading in our model, as saved in the "Gmodel.Rmd" notebook.
+
+From the Gmodel.rmd, we can remember that we stored three "test data" sets, which can also be read in and pruned to yield a matrix that can be used by the predict function, based on the splsda model we built earlier.  
+
+```{r}
+# We can load in our model
+splsda <- readRDS("splsda_model.rds")
+
+# And also our test set of HFM individuals. 
+
+testing_set <- readRDS("testing_set.rds")
+
+# Initialize a list to store the dataframes
+df_list <- list()
+
+# Split the testing_set into four dataframes
+for (i in 1:nrow(testing_set)) {
+  df_list[[i]] <- testing_set[i, ]
+}
+
+df1 <- df_list[[1]]
+df2 <- df_list[[2]]
+df3 <- df_list[[3]]
+
+# Remove the first two columns from df(x)
+df1 <- df1[, -c(1:2)]
+df2 <- df2[, -c(1:2)]
+df3 <- df3[, -c(1:2)]
+```
+
+Of the three we read in, we can choose one for the analysis. (we can plug in either df1, df2, or df3 to see each new users supplementation quantities)
+
+```{r}
+# Define model variable
+
+dfm <- df3
+
+new_sample_scores <- predict(splsda, newdata = dfm, type = "scores")
+
+```
+
+```{r}
+
+# Extract the predicted score for the first component and first class
+predicted_score <- new_sample_scores$predict[, , 1]
+
+# Print the predicted score
+print(predicted_score)
+```
+
+We can see, based on the previous scores that the model can accurately predict that these three randomly generated users are unhealthy (score associated with "1" is >0.5).
+
+We can include a checkpoint in the script, which checks if the user is unhealthy, only if they are does the supplementation script work:
+
+```{r}
+# Define a test variable 
+
+if(predicted_score["1"] > 0.5){
+  # If the condition is met, assign dfm to dft
+  dft <- dfm
+}
+```
+
+Read in the original data, for the subsequent supplementation script:
+```{r}
+df_long <- readRDS("joined_data")
+#df_long <- df_long[, -1]
+
+```
+
+The following code chunk is used to calculate the percent difference between genera in the healthy average and the in the new user (such that the healthy average has, for example, (x) times the amount of this bacteria than the new user)
+
+We begin by assigning a function that goes through the loadings of the model and gathers the top 30 contributing genera identified with healthy users. The model ascribes negative loading values to those genera associated with health, thus, we filter by the negative scores, take the absolute value, and sort by decreasing number and select the top 30. 
+
+We then filter the dft data and original data set by these 30 genera and then calculate the mean healthy user genera abundances, and then merge these two data sets, such that the new user and mean healthy user genera abundances are joined.
+
+Then, if the healthy average abundance for any given genera is higher than the new user, a ratio is calculated to see how much more the healthy average is than the new user. 
+
+These ratio's are then printed. 
+
+```{r}
+# Step 1: Find the top 30  contributing genera for healthy users
+get_top_healthy_genera <- function(n_genera = 30){
+    # Get the loadings of the genera in the first component
+    loadings <- splsda$loadings$X[, "comp1"]
+
+    # Get the absolute values of the loadings
+    abs_loadings <- abs(loadings)
+
+    # Sort the absolute loadings in decreasing order
+    sorted_abs_loadings <- sort(abs_loadings, decreasing = TRUE)
+
+    # Filter the loadings to keep only the original negative ones (associated with 'healthy')
+    healthy_loadings <- sorted_abs_loadings[loadings < 0]
+
+# Get the names of the top contributing genera for healthy individuals
+top_healthy_genera <- names(healthy_loadings)[1:n_genera]
+    
+    return(top_healthy_genera)
+}
+top_healthy_genera <- get_top_healthy_genera()
+
+# Step 2: Filter out the df_long dataframe to include only these genera for healthy and unhealthy users
+df_long_filtered <- df_long[, c("Group", top_healthy_genera)]
+
+# Step 3: Calculate the average abundances of each of these genera in the df_long dataframe
+average_abundance <- colMeans(df_long_filtered[df_long_filtered$Group == 0, -1])
+
+# Step 4: Perform steps 2 and 3 on the dft dataframe
+# The dft dataframe contains only genera columns (and no 'Group' column)
+dft_filtered <- dft[, top_healthy_genera]
+average_abundance_dft <- colMeans(dft_filtered)
+
+# Step 5: If the average abundance for any of these genera is higher in the average healthy abundances than they are in the dft dataframe, print them out.
+deficient_genera <- names(average_abundance)[average_abundance > average_abundance_dft]
+
+# Calculate the ratio (fold change) in abundance for deficient genera
+abundance_ratio <- average_abundance[deficient_genera] / (average_abundance_dft[deficient_genera] + 1e-9)
+
+# Print deficient genera and their abundance ratio
+print(data.frame(Genera = deficient_genera, Abundance_Ratio = abundance_ratio))
+
+```
+
+Here we see the printed ratio values. For example, for df1, we can see that they need roughly 2 times the amount of parabacteroides to match the healthy average. 
+
+
+
+
+
+
+
+
+
+
