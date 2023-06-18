@@ -1,0 +1,34 @@
+---
+title: "Packages"
+output: html_notebook
+---
+
+Here are the relevant packages for our project:
+
+```{r}
+install.packages(c(
+  "readr",
+  "tidyverse",
+  "pROC",
+  "caret",
+  "tm",
+  "wordcloud",
+  "RColorBrewer",
+  "ggplot2",
+  "prettydoc",
+  "xfun"
+))
+```
+
+Mixomics requires a special installation. 
+
+```{r}
+# MixOmics not available through CRAN, but we can do this:
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("mixOmics")
+
+```
+
