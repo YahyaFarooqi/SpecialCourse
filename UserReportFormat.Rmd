@@ -54,7 +54,6 @@ new_sample_scores <- predict(splsda, newdata = dfm, type = "scores")
 
 
 # Assuming df1 is a dataframe with a single row (sample)
-# new_sample_scores <- predict(splsda, newdata = df1, type = "scores")  # Uncomment this line if splsda and df1 are defined
 
 # Extract the predicted score for the first component and first class
 predicted_score <- new_sample_scores$predict[, , 1]
