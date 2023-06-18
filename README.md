@@ -7,3 +7,4 @@ The order by which these files should be run is:
     "Supplement"
     "UserReport"
 A .pdf is also attached, which provides an outline of the project. 
+Relevent packages must be installed before script can be run, see "packages.Rmd"
